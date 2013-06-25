@@ -1,9 +1,4 @@
 #!/usr/bin/env python3
-'''
-Created on Mar 26, 2013
-
-@author: chris
-'''
 import re
 
 def phrase_to_list(p):
