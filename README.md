@@ -13,7 +13,7 @@ all yet existing characters will be appended.  The following example
 illustrates the password generating process:
 
 Given the phrase:
-> [I] can'[t] se[e] th[e] woo[d] fo[r] th[e] tree[s!]
+> I can't see the wood for the trees!
 
 you will get
 > ItEeDrEs!81
