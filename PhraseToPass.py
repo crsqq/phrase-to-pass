@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import re
+import sys
 
 
 def phrase_to_list(p):
@@ -84,13 +85,18 @@ def all_in_one(phrase):
 
 
 def main():
-    phrase = input('Please enter your phrase: ')
-    password = all_in_one(phrase)
+    if len(sys.argv) > 1:
+        phrase = " ".join(sys.argv[1:])
+        password = all_in_one(phrase)
+        print(password)
+    else:
+        phrase = input('Please enter your phrase: ')
+        password = all_in_one(phrase)
 
-    pwlength = len(password)
+        pwlength = len(password)
 
-    print(password)
-    print(pwlength, 'characters')
+        print(password)
+        print(pwlength, 'characters')
 
 
 if __name__ == '__main__':

@@ -24,8 +24,10 @@ as your passphrase.
 just download or clone the PhraseToPass.py
 
 ##Usage
-To run the PhraseToPass, type:
-> python3 PhraseToPass.py
+Pass your phrase via command line argument:
 
-or make _PhraseToPass.py_ executable and type:
-> ./PhraseToPass.py
+`python3 PhraseToPass.py I can't see the wood for the trees!`
+
+or make PhraseToPass.py executable and:
+
+`./PhraseToPass.py I can't see the wood for the trees!`
